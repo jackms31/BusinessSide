@@ -2,9 +2,9 @@ angular.module('randomizerCtrl', []).controller('randomizerCtrl', ['$scope', 'ra
 
     $scope.randomize = function(){
         $scope.company = randomizerService.getCompany();
-        $scope.preposition = randomizerService.getPreposition();
+        $scope.adjective = randomizerService.getAdjective();
         $scope.noun = randomizerService.getNoun();
-        $scope.audience = randomizerService.getAudience();
+        $scope.location = randomizerService.getLocation();
     };
 
     $scope.randomize();

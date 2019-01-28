@@ -1,13 +1,14 @@
 <div class = "center-block" ng-controller="randomizerCtrl">
     <button type="button" class="btn btn-primary" ng-click="randomize()">Find me a Startup!</button>
     <br>
-    <b>{{company.name}}</b> {{preposition.name}} <b>{{noun.name}}</b> {{audience.name}}
+    <b>{{company.name}}</b> but for <b>{{adjective.name}} {{noun.name}}</b> {{location.name}}
     <br>
     <img src="{{company.image}}" style="width:300px;height:300px;">
     <img src="resources/imgs/arrow.png" style="width:200px;height:300px;">
+    <img src="{{adjectives.image}}" style="width:300px;height:300px;">
     <img src="{{noun.image}}" style="width:300px;height:300px;">
     <img src="resources/imgs/arrow.png" style="width:200px;height:300px;">
-    <img src="{{audience.image}}" style="width:300px;height:300px;">
+    <img src="{{location.image}}" style="width:300px;height:300px;">
 
 
 </div>

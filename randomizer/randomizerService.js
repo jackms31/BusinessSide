@@ -5,18 +5,26 @@ angular.module('randomizerService', [])
             return array[Math.floor(Math.random() * array.length)];
         };
 
+        var shouldAdjectiveBeOn = function(){
+            return Math.floor(Math.random() * 2) === 0;
+        };
+
+        var shouldLocationBeOn = function(){
+            return Math.floor(Math.random() * 2) === 0;
+        };
+
         return {
             getCompany: function(){
                 return randChoice(randomizerConstants.companies);
             },
-            getPreposition: function(){
-                return randChoice(randomizerConstants.prepositions);
+            getAdjective: function(){
+                return shouldAdjectiveBeOn() ? randChoice(randomizerConstants.adjectives) : '';
             },
             getNoun: function(){
                 return randChoice(randomizerConstants.nouns);
             },
-            getAudience: function(){
-                return randChoice(randomizerConstants.audience);
+            getLocation: function(){
+                return shouldLocationBeOn() ? randChoice(randomizerConstants.locations) : '';
             }
         }
     }]);
