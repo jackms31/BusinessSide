@@ -11,7 +11,7 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
             {name: 'Yelp', image: 'resources/imgs/yelp.jpg'},
             {name: 'Airbnb', image: 'resources/imgs/airbnb.jpg'},
             {name: 'Grindr', image: 'resources/imgs/grindr.jpg'},
-            {name: 'Tinder', image: 'resources/imgs/tinder.png'},
+            {name: 'Tinder', image: 'resources/imgs/tinder.jpg'},
             {name: 'Tesla', image: 'resources/imgs/tesla.png'}
         ],
     nouns: [
@@ -33,6 +33,6 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
     locations: [
             {name: 'in a modern world', image: 'resources/imgs/modern.jpg'},
             {name: 'at renaissance fairs', image: 'resources/imgs/renaissance.jpg'},
-            {name: 'on a paleo diet', image: 'resources/imgs/cavemen.jpg'}
+            {name: 'on a paleo diet', image: 'resources/imgs/caveman.jpg'}
         ]
 });
