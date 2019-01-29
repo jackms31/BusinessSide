@@ -12,10 +12,12 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
             {name: 'Airbnb', image: 'resources/imgs/airbnb.jpg'},
             {name: 'Grindr', image: 'resources/imgs/grindr.jpg'},
             {name: 'Tinder', image: 'resources/imgs/tinder.jpg'},
-            {name: 'Tesla', image: 'resources/imgs/tesla.png'}
-        ],
+            {name: 'Tesla', image: 'resources/imgs/tesla.png'},
+            {name: 'Twitter', image: 'resources/imgs/twitter.png'},
+            {name: 'Juicero', image: 'resources/imgs/juicero.png'}
+    ],
     nouns: [
-            {name: 'dogs', image: 'resources/imgs/dogs.jpg'},
+            {name: 'dogs', image: 'resources/imgs/dog.jpg'},
             {name: 'buttholes', image: 'resources/imgs/censored.jpg'},
             {name: 'machine learning', image: 'resources/imgs/machinelearning.jpg'},
             {name: 'aglets', image: 'resources/imgs/aglets.jpg'},
@@ -28,11 +30,18 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
             {name: 'anti-vaxers', image: 'resources/imgs/antivax.jpg'},
             {name: 'yoga balls', image: 'resources/imgs/yoga.jpg'},
             {name: 'pizza lovers', image: 'resources/imgs/pizza.jpg'},
-            {name: 'professional wrestlers', image: 'resources/imgs/wrestlers.jpg'}
+            {name: 'professional wrestlers', image: 'resources/imgs/wrestlers.jpg'},
+            {name: 'startup generators', image: 'resources/imgs/startup.png'}
+
     ],
     locations: [
             {name: 'in a modern world', image: 'resources/imgs/modern.jpg'},
             {name: 'at renaissance fairs', image: 'resources/imgs/renaissance.jpg'},
-            {name: 'on a paleo diet', image: 'resources/imgs/caveman.jpg'}
-        ]
+            {name: 'on a paleo diet', image: 'resources/imgs/caveman.jpg'},
+            {name: 'in Kansas', image: 'resources/imgs/kansas.jpg'},
+            {name: 'in space', image: 'resources/imgs/space.jpg'},
+            {name: 'at family reunions', image: 'resources/imgs/reunion.jpg'}
+
+
+    ]
 });
