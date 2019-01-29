@@ -19,18 +19,18 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
             {name: 'professional-wrestling', image: ''}
         ],
     nouns: [
-            {name: 'dogs', image: ''},
-            {name: 'buttholes', image: ''},
-            {name: 'machine learning', image: ''},
-            {name: 'aglets', image: ''},
-            {name: 'room-temperature milk', image: ''},
-            {name: 'awkward hellos', image: ''},
-            {name: 'racist grandmas', image: ''},
-            {name: 'mullets', image: ''},
-            {name: 'the War of Northern Aggression', image: ''},
-            {name: 'hot air balloon pilots', image: ''},
-            {name: 'anti-vaxers', image: ''},
-            {name: 'yoga balls', image: ''}
+            {name: 'dogs', image: 'resources/imgs/dogs.jpg'},
+            {name: 'buttholes', image: 'resources/imgs/censored.jpg'},
+            {name: 'machine learning', image: 'resources/imgs/machinelearning.jpg'},
+            {name: 'aglets', image: 'resources/imgs/ebay.jpg'},
+            {name: 'room-temperature milk', image: 'resources/imgs/milk.jpg'},
+            {name: 'awkward hellos', image: 'resources/imgs/awkwardhellos.jpg'},
+            {name: 'racist grandmas', image: 'resources/imgs/grandmas.jpg'},
+            {name: 'mullets', image: 'resources/imgs/mullets.jpg'},
+            {name: 'the War of Northern Aggression', image: 'resources/imgs/lincoln.jpg'},
+            {name: 'hot air balloon pilots', image: 'resources/imgs/balloons.jpg'},
+            {name: 'anti-vaxers', image: 'resources/imgs/antivax.jpg'},
+            {name: 'yoga balls', image: 'resources/imgs/yoga.jpg'}
         ],
     locations: [
             {name: 'in a modern world', image: ''},
