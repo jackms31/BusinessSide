@@ -4,8 +4,6 @@ angular.module('randomizerCtrl', []).controller('randomizerCtrl', ['$scope', 'ra
         $scope.company = randomizerService.getCompany();
         $scope.noun = randomizerService.getNoun();
         $scope.location = randomizerService.getLocation();
-
-        console.log($scope.company.image);
     };
 
     $scope.randomize();
