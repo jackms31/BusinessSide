@@ -16,9 +16,9 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
                 {name: 'Twitter', image: 'resources/imgs/twitter.png'},
                 {name: 'Juicero', image: 'resources/imgs/juicero.png'},
                 {name: 'Roman Health', image: 'resources/imgs/roman.jpg'},
-                {name: 'Slingbox', images: ''},
-                {name: 'Tiktok', images: ''},
-                {name: 'NFL Redzone', images: ''},
+                {name: 'Sling', image: 'resources/imgs/sling.jpg'},
+                {name: 'Tiktok', image: 'resources/imgs/tiktok.jpg'},
+                {name: 'NFL Redzone', image: 'resources/imgs/redzone.jpg'},
             ],
         nouns: [
                 {name: 'dogs', image: 'resources/imgs/dog.jpg'},
@@ -36,8 +36,8 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
                 {name: 'pizza lovers', image: 'resources/imgs/pizza.jpg'},
                 {name: 'professional wrestlers', image: 'resources/imgs/wrestlers.jpg'},
                 {name: 'startup generators', image: 'resources/imgs/startup.png'},
-                {name: 'Republicans', image:''},
-                {name: 'boomers', image: ''},
+                {name: 'Republicans', image:'resources/imgs/republicans.png'},
+                {name: 'boomers', image: 'resources/imgs/boomers.jpg'},
         ],
         locations: [
                 {name: 'in a modern world', image: 'resources/imgs/modern.jpg'},
@@ -46,8 +46,8 @@ angular.module('randomizerConstants', []).constant('randomizerConstants', {
                 {name: 'in Kansas', image: 'resources/imgs/kansas.jpg'},
                 {name: 'in space', image: 'resources/imgs/space.jpg'},
                 {name: 'at family reunions', image: 'resources/imgs/reunion.jpg'},
-                {name: 'at Coachella', image: ''},
-                {name: 'in a bear market', image: ''},
-                {name: 'on a boat', image: ''},
+                {name: 'at Coachella', image: 'resources/imgs/coachella.jpg'},
+                {name: 'in a bear market', image: 'resources/imgs/bearmarket.jpg'},
+                {name: 'on a boat', image: 'resources/imgs/onaboat.jpg'},
         ]
     });
